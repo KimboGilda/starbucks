@@ -7,6 +7,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  box-shadow: 10px 10px 5px 0px rgba(176, 176, 176, 0.75);
 }
 
 .navbar-left {
@@ -53,4 +54,22 @@ body {
   color: rgb(245, 245, 245);
   text-decoration: none;
   border-radius: 10px;
+}
+
+.product-right {
+  display: flex;
+}
+
+.btn-remix {
+  background-color: rgb(242, 242, 242);
+  border: 1px solid rgb(101, 100, 100);
+  padding: 5px 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.product-left image {
+  object-fit: fill;
 }
